@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/item" android:tag="layout/item_0" android:background="?android:attr/selectableItemBackground" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:tag="binding_1" android:layout_width="50dp" android:layout_height="50dp"/>
+    <LinearLayout android:orientation="vertical" android:paddingTop="3dp" android:layout_width="260dp" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:id="@+id/tv_title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp"/>
+        <TextView android:id="@+id/tv_description" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginTop="6dp"/>
+    </LinearLayout>
+    <TextView android:textSize="20sp" android:textColor="#ffb400" android:gravity="end" android:id="@+id/tv_score" android:tag="binding_4" android:paddingRight="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

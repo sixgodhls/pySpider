@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_index_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout android:id="@+id/twinklingRefreshLayout" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" binding:tr_enable_refresh="false" binding:tr_head_height="80dp" binding:tr_wave_height="80dp">
+        <android.support.v7.widget.RecyclerView android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@+id/icon" android:layout_width="24dp" android:layout_height="24dp"/>
+    <me.majiajie.pagerbottomtabstrip.internal.RoundMessageView android:layout_gravity="center_horizontal" android:id="@+id/messages" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="11dp" android:translationX="14dp"/>
+</merge>

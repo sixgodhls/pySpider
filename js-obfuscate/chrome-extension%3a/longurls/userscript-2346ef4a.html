@@ -1,0 +1,31 @@
+window["__p__15906759.333012499"] = function(){((context, powers, fapply) => {with (context) {(module => {"use strict";try {fapply(module, context, [undefined,undefined,powers.CDATA,powers.uneval,powers.define,powers.module,powers.exports,powers.GM,powers.GM_info]);} catch (e) {if (e.message &&e.stack) {console.error("ERROR: Execution of script 'New Userscript' failed! " + e.message);console.log(e.stack);} else {console.error(e);}}})(async function (context,fapply,CDATA,uneval,define,module,exports,GM,GM_info) {
+
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://127.0.0.1:5500/test.html
+// @version      0.1
+// @description  try to take over the world!
+// @author       You
+// @match        http://127.0.0.1:5500/test.html
+// @icon         https://www.google.com/s2/favicons?sz=64 &domain =baidu.com
+// @grant        none
+// @run-at        document-start
+// ==/UserScript==
+
+(function() {
+    'use strict';
+    function hook(object,attr){
+        const func=attr
+        attr=function(){
+            console.log('hooked',object,attr)
+            var ret=func.apply(object,arguments)
+            debugger
+            return ret
+        }
+    }
+    hook(window,e)
+    // Your code here...
+})();
+})}})(this.context, this.powers, this.fapply);
+//# sourceURL=chrome-extension://dhdgffkkebhmkfjojejmpbldmpobfkfo/userscript.html?name=New%2520Userscript.user.js &id =1e361090-af08-4c9d-b15c-e1282306b6aa
+};

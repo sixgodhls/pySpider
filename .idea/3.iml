@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/模块/Cases/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模块/Cases/proxy/代理" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模块/Cases/proxy/ScrapeAntispider5-master/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模块/Cases/proxy/proxy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模块/Cases/代理/ScrapeAntispider5-master/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/模块/Cases/代理/core" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AccountPool-master/accountpool" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+      <excludeFolder url="file://$MODULE_DIR$/模块/验证码识别/深度学习识别验证码/DeepLearningImageCaptcha/dataset/eval" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

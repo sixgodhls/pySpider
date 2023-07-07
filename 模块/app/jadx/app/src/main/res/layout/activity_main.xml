@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/activity_main_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:tag="binding_1" android:layout_width="300dp" android:layout_height="match_parent" android:src="@mipmap/ic_launcher"/>
+</LinearLayout>
